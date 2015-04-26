@@ -43,7 +43,7 @@ if (isset($_REQUEST['ajax'])) {
   <meta name="description" content="Paul Lessing's web portfolio" />
   <meta name="keywords" content="Paul Lessing, Paul, Lessing, Web developer, HTML, HTML5, CSS, CSS3" />
   <meta name="author" content="Paul Lessing" />
-  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 </head>
