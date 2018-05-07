@@ -13,3 +13,4 @@ custom:
   s3Sync:
     - bucketName: paullessing.com
       localDir: frontend
+      acl: public-read
