@@ -1,0 +1,15 @@
+service:
+  name: paullessing-com
+
+plugins:
+  - serverless-s3-sync
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: eu-west-2
+
+custom:
+  s3Sync:
+    - bucketName: paullessing.com
+      localDir: frontend
