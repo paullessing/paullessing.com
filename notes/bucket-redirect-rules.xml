@@ -4,9 +4,21 @@
       <KeyPrefixEquals>files/</KeyPrefixEquals>
     </Condition>
     <Redirect>
+      <HttpRedirectCode>302</HttpRedirectCode>
       <Protocol>https</Protocol>
       <HostName>files.paullessing.com</HostName>
       <ReplaceKeyPrefixWith></ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>cv</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <HttpRedirectCode>302</HttpRedirectCode>
+      <Protocol>https</Protocol>
+      <HostName>files.paullessing.com</HostName>
+      <ReplaceKeyWith>cv.pdf</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
 </RoutingRules>
