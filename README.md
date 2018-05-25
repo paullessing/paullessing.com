@@ -9,7 +9,7 @@ yarn deploy
 ```
 
 ## Setup
-Three buckets; `paullessing.com`, `www.paullessing.com`, and files.paullessing.com.
+Three buckets; `paullessing.com`, `www.paullessing.com`, and `files.paullessing.com`.
 
 ## Redirect rules
 Go to the main bucket -> Properties -> Static Website Hosting -> Redirect Rules.
